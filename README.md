@@ -29,9 +29,9 @@ Avete 24 ore di tempo.
 
 Produrre 2 notebook, 1 di preparazione dati ed 1 di training.
 
-    Il notebook di training, fa tutto quello che vi immaginate: apre il dato di test/train, fa l'analisi, fa la trasformazione dei dati, addestra il classificatore ed emette l'accuracy.
+Il notebook di training, fa tutto quello che vi immaginate: apre il dato di test/train, fa l'analisi, fa la trasformazione dei dati, addestra il classificatore ed emette l'accuracy.
 
-    Il notebook di preparazione, a partire dal file di dati che vi verrà passato, crea e scrive su disco 2 file CSV con nome fisso, train.csv e test.csv, che dovranno contenere i rispettivi dati di train e test. Nel notebook di training dovrete aprire ed usare quei due file. Non c'è quindi bisogno di salvare modelli da un notebook all'altro poichè tutto avviene in quello di training. Questo notebook non fa calcoli, nè pulizia, nè altro. Fa solo split.
+Il notebook di preparazione, a partire dal file di dati che vi verrà passato, crea e scrive su disco 2 file CSV con nome fisso, train.csv e test.csv, che dovranno contenere i rispettivi dati di train e test. Nel notebook di training dovrete aprire ed usare quei due file. Non c'è quindi bisogno di salvare modelli da un notebook all'altro poichè tutto avviene in quello di training. Questo notebook non fa calcoli, nè pulizia, nè altro. Fa solo split.
 
 In sede di valutazione userò come file di training l'intero dataset che vi ho passato e come file di test un mio personale che conterrà la parte di dati che non vi ho fornito; farò quindi girare nuovamente il notebook di training facendo calcolare al vostro algoritmo la metrica di accuratezza sul mio file, non sul file di test che avrete prodotto e usato durante la challenge.
 
