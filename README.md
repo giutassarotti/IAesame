@@ -1,12 +1,13 @@
 # IAesame
-Challenge di luglio: Customer Churn
-Contesto
+##Challenge di luglio: Customer Churn
+###Contesto
 I vostri clienti non versano più gli stipendi nei conti correnti della vostra banca? Usano il bancomat solo per prelevare e la giacenza media è di 20€? Mi sa che stanno per mollarvi!
 
-Obiettivo
+###Obiettivo
 
 Tirate fuori un classificatore che preveda se un cliente, data la "foto" che il dataset inquadra, stia per abbandonare la banca oppure sia destinato a rimanere.
-Dataset
+
+###Dataset
 Le stats:
 
     CustomerId: id cliente
@@ -23,7 +24,7 @@ Le stats:
     EstimatedSalary: entrate stimate del cliente
     Exited: se ha cambiato banca o no
 
-Consegna
+###Consegna
 
 Avete 24 ore di tempo.
 
